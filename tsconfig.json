@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist/",
+    "sourceMap": true,
+    "module": "commonjs",
+    "target": "es5",
+    "jsx": "react",
+    "strict": true,
+    "noImplicitAny": true,
+    "noUnusedLocals": true,
+    "noImplicitReturns": true,
+    "lib": ["es6", "es2017", "dom", "esnext.asynciterable"],
+    "typeRoots": [
+      "@types",
+      "./@types"
+    ]
+  },
+  "include": [
+    "./src/**/*.tsx"
+  ]
+}

@@ -1,0 +1,76 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ImageNetTreeNode> renders 1`] = `
+<div>
+  <pre>
+     └──
+     
+    Top parent
+     
+    (5)
+  </pre>
+  <div>
+    <div>
+      <pre>
+              └──
+         
+        Child1
+         
+        
+      </pre>
+      <div />
+    </div>
+    <div>
+      <pre>
+              └──
+         
+        Intermediate1
+         
+        (3)
+      </pre>
+      <div>
+        <div>
+          <pre>
+                       └──
+             
+            Child1Child1
+             
+            
+          </pre>
+          <div />
+        </div>
+        <div>
+          <pre>
+                       └──
+             
+            Child1Child2
+             
+            
+          </pre>
+          <div />
+        </div>
+        <div>
+          <pre>
+                       └──
+             
+            Child1Child3
+             
+            
+          </pre>
+          <div />
+        </div>
+      </div>
+    </div>
+    <div>
+      <pre>
+              └──
+         
+        Child3
+         
+        
+      </pre>
+      <div />
+    </div>
+  </div>
+</div>
+`;
